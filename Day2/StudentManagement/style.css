@@ -41,7 +41,6 @@ body{
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     text-align: center;
     flex: 1;
-    border-left: 5px solid blue;
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
@@ -62,22 +61,6 @@ body{
     font-size: 32px;
     font-weight: bold;
     color:black;
-}
-
-.dashboard .card:nth-child(1){
-    border-left-color: blue;
-}
-
-.dashboard .card:nth-child(2){
-    border-left-color: green;
-}
-
-.dashboard .card:nth-child(3){
-    border-left-color: gold;
-}
-
-.dashboard .card:nth-child(4){
-    border-left-color: red;
 }
 
 #addStudent{
